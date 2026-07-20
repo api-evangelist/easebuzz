@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.easebuzz.in/
+summary:
+  types:
+  - apiKey
+  - customHash
+  api_key_in:
+  - body
+  oauth2_flows: []
+notes: >-
+  Easebuzz REST APIs (Payment Gateway and Wire Payouts) authenticate each request with a
+  merchant "key" issued in the dashboard and a per-request integrity "hash". The hash is a
+  SHA-512 digest computed over a pipe-delimited, ordered concatenation of the request
+  parameters bracketed by the merchant "salt" (a shared secret that is never transmitted).
+  The response is verified the same way (reverse-order hash). There is no OAuth 2.0 / OIDC
+  surface. Test and live use separate key/salt pairs and separate hosts.
+schemes:
+- name: merchantKey
+  type: apiKey
+  in: body
+  parameter: key
+  description: Merchant key issued in the Easebuzz dashboard, sent with each request.
+  sources:
+  - https://docs.easebuzz.in/
+- name: requestHash
+  type: customHash
+  algorithm: SHA-512
+  in: body
+  parameter: hash
+  description: >-
+    SHA-512 hash over an ordered, pipe-delimited payload plus the merchant salt, proving
+    request integrity and authenticity. The salt is a shared secret and is never sent on
+    the wire.
+  sources:
+  - https://docs.easebuzz.in/
