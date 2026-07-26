@@ -1,0 +1,106 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/easebuzz + PyPI + Packagist + npm registry
+notes: >-
+  First-party Easebuzz "Pay With Easebuzz" integration kits and SDKs. Registry-published
+  packages are marked with their registry; the remaining official client libraries are
+  distributed as source on the github.com/easebuzz organization (registry: github). Third-party
+  community wrappers were found on the registries but are excluded here.
+packages:
+- language: python
+  registry: pypi
+  name: easebuzz
+  url: https://pypi.org/project/easebuzz/
+  install: pip install easebuzz
+  official: true
+  source: https://github.com/easebuzz
+  notes: 'Published by "Easebuzz Payments" (root@easebuzz.in); wrapper for the Payment Gateway.'
+- language: php
+  registry: packagist
+  name: easebuzz/pay-with-easebuzz-laravel
+  url: https://packagist.org/packages/easebuzz/pay-with-easebuzz-laravel
+  install: composer require easebuzz/pay-with-easebuzz-laravel
+  official: true
+  source: https://github.com/easebuzz/paywitheasebuzz-laravel-lib
+- language: javascript
+  registry: npm
+  name: easebuzz-capacitorjs-sdk
+  url: https://www.npmjs.com/package/easebuzz-capacitorjs-sdk
+  install: npm install easebuzz-capacitorjs-sdk
+  official: true
+  source: https://github.com/easebuzz/paywitheasebuzz-capacitorjs-lib
+- language: javascript
+  registry: npm
+  name: react-native-easebuzz-sdk
+  url: https://www.npmjs.com/package/react-native-easebuzz-sdk
+  install: npm install react-native-easebuzz-sdk
+  official: true
+  source: https://bitbucket.org/easebuzz1/react-native-easebuzz-sdk
+- language: php
+  registry: github
+  name: paywitheasebuzz-php-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-php-lib
+  official: true
+- language: java
+  registry: github
+  name: paywitheasebuzz-java-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-java-lib
+  official: true
+- language: csharp
+  registry: github
+  name: paywitheasebuzz-dotnet-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-dotnet-lib
+  official: true
+- language: ruby
+  registry: github
+  name: paywitheasebuzz-ruby
+  url: https://github.com/easebuzz/paywitheasebuzz-ruby
+  official: true
+- language: python
+  registry: github
+  name: paywitheasebuzz-django-lib-python3.10
+  url: https://github.com/easebuzz/paywitheasebuzz-django-lib-python3.10
+  official: true
+- language: javascript
+  registry: github
+  name: paywitheasebuzz-nodejs-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-nodejs-lib
+  official: true
+- language: java
+  registry: github
+  name: paywitheasebuzz-android-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-android-lib
+  official: true
+- language: objective-c
+  registry: github
+  name: paywitheasebuzz-ios-v2-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-ios-v2-lib
+  official: true
+- language: dart
+  registry: github
+  name: paywitheasebuzz-flutter-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-flutter-lib
+  official: true
+- language: javascript
+  registry: github
+  name: paywitheasebuzz-cordova-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-cordova-lib
+  official: true
+- language: csharp
+  registry: github
+  name: paywitheasebuzz-xamarin-lib
+  url: https://github.com/easebuzz/paywitheasebuzz-xamarin-lib
+  official: true
+plugins:
+- platform: WordPress / WooCommerce
+  url: https://github.com/easebuzz/paywitheasebuzz-wordpress-woocommerce-lib
+- platform: Magento 2.4.x
+  url: https://github.com/easebuzz/paywitheasebuzz-magento-2.4.X-lib
+- platform: OpenCart 3.0.x
+  url: https://github.com/easebuzz/paywitheasebuzz-opencart-lib-3.0.X
+- platform: PrestaShop 1.7.x
+  url: https://github.com/easebuzz/paywitheasebuzz-prestashop-1.7.x-lib
+- platform: WHMCS
+  url: https://github.com/easebuzz/paywitheasebuzz-WHMCS-lib
+- platform: AbanteCart
+  url: https://github.com/easebuzz/paywitheasebuzz-abantecart-lib

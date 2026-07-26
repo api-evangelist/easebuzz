@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://easebuzz.in/llms.txt
+docs: https://docs.easebuzz.in/docs/payment-gateway/i849ghebwytej-payment-gateway
+summary: >-
+  Easebuzz publicly states it is an RBI-authorized payment aggregator and a PCI DSS-compliant
+  payment gateway, with a Trust & Compliance section in its developer docs covering PCI DSS,
+  encryption standards, and API authentication. No OpenAPI is published, so cross-cutting
+  protocol conformance (OAuth2/OIDC/RFC 9457) is asserted from documented behavior only.
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: 'Homepage/llms.txt state "PCI DSS-compliant payment gateway"; docs Trust & Compliance page.'
+- id: rbi-payment-aggregator
+  conforms: true
+  evidence: 'Stated "RBI-authorized" payment aggregator (Reserve Bank of India PA license regime).'
+- id: oauth2
+  conforms: false
+  evidence: 'Auth is merchant key + salt + SHA-512 request hash, not OAuth 2.0.'
+- id: oidc
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: 'No published OpenAPI; error responses documented as custom JSON, not application/problem+json.'

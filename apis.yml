@@ -1,8 +1,27 @@
 aid: easebuzz
 name: Easebuzz
-description: 'Easebuzz is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service
+  embedded with payments infrastructure for businesses across India. Its products include a payment
+  gateway supporting 150+ payment options (cards, UPI, net banking, wallets, EMI, BNPL), payment links,
+  and in-store POS; collections products such as EasyCollect subscriptions, InstaCollect virtual accounts,
+  Slices payment splitting and FeesBuzz fee collection; Wire payouts over NEFT, RTGS, IMPS and UPI with
+  vendor and tax payments; sub-merchant management for platforms and marketplaces; Easebuzz Neo connected
+  banking APIs; and SaaS tools including SmartBilling, Teller, Forms and Webstore. Developers integrate
+  through REST APIs authenticated with a merchant key, salt and SHA-512 request hash, backed by official
+  SDKs and e-commerce plugins across web and mobile platforms.'
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://ebz-static.s3.ap-south-1.amazonaws.com/easebuzz-static/easebuzz_technology_solutions.png
 url: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +31,94 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
-apis: []
+- Payments
+- Payment Gateway
+- Payouts
+- Banking
+- India
+- UPI
+- Subscriptions
+- SDK
+apis:
+- name: Easebuzz Payment Gateway API
+  description: 'REST payment gateway API to initiate transactions, verify transaction status, and process
+    refunds across 150+ payment options (cards, UPI, net banking, wallets, EMI). Requests are authenticated
+    with a merchant key and signed with a SHA-512 hash computed over an ordered payload plus the merchant
+    salt.'
+  humanURL: https://docs.easebuzz.in/
+  baseURL: https://pay.easebuzz.in/
+  tags:
+  - Payments
+  - Payment Gateway
+  properties:
+  - type: Documentation
+    url: https://docs.easebuzz.in/
+- name: Easebuzz Wire Payouts API
+  description: 'REST payouts API (Wire) to disburse funds over NEFT, RTGS, IMPS and UPI, manage
+    beneficiaries, run vendor and tax payments, and check payout/balance status, authenticated with
+    a merchant key, salt and SHA-512 hash.'
+  humanURL: https://docs.easebuzz.in/
+  baseURL: https://wire.easebuzz.in/
+  tags:
+  - Payments
+  - Payouts
+  properties:
+  - type: Documentation
+    url: https://docs.easebuzz.in/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/easebuzz-domain-security.yml
 - type: Website
   url: https://easebuzz.in/
+- type: DeveloperPortal
+  url: https://docs.easebuzz.in/
+- type: Documentation
+  url: https://docs.easebuzz.in/
+- type: APIReference
+  url: https://docs.easebuzz.in/
+- type: SignUp
+  url: https://easebuzz.in/merchant/signup/
+- type: Login
+  url: https://easebuzz.in/merchant/login/
+- type: Support
+  url: https://support.easebuzz.in/
+- type: HelpCenter
+  url: https://helpdesk.easebuzz.in/
+- type: Blog
+  url: https://easebuzz.in/explainers/
+- type: Pricing
+  url: https://easebuzz.in/pricing/
+- type: TermsOfService
+  url: https://easebuzz.in/terms/
+- type: PrivacyPolicy
+  url: https://easebuzz.in/privacy/
+- type: GitHubOrganization
+  url: https://github.com/easebuzz
+- type: Packages
+  url: packages/easebuzz-packages.yml
+- type: SDKs
+  url: packages/easebuzz-packages.yml
+- type: Authentication
+  url: authentication/easebuzz-authentication.yml
+- type: Sandbox
+  url: sandbox/easebuzz-sandbox.yml
+- type: Conformance
+  url: conformance/easebuzz-conformance.yml
+- type: Compliance
+  url: https://docs.easebuzz.in/docs/payment-gateway/i849ghebwytej-payment-gateway
+- type: LLMsTxt
+  url: llms/easebuzz-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

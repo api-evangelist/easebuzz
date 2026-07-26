@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.easebuzz.in/
+summary: >-
+  Easebuzz provides a fully separate test (sandbox) environment for the Payment Gateway and
+  Wire Payouts APIs. Merchants are issued a distinct test "key" and "salt" pair (separate from
+  live credentials) and point integration to the test hosts below. The request/response
+  contract (SHA-512 hash signing) is identical to production; only the host and the
+  key/salt pair change between test and live.
+environments:
+- mode: test
+  name: Sandbox / Test
+  hosts:
+  - service: Payment Gateway
+    base_url: https://testpay.easebuzz.in/
+    status_probed: 302
+  dashboard: https://testdashboard.easebuzz.in/
+  credentials: Separate test merchant key + salt issued in the test dashboard.
+- mode: live
+  name: Production
+  hosts:
+  - service: Payment Gateway
+    base_url: https://pay.easebuzz.in/
+    status_probed: 302
+  - service: Wire Payouts
+    base_url: https://wire.easebuzz.in/
+    status_probed: 200
+  dashboard: https://dashboard.easebuzz.in/
+notes: >-
+  Specific published test-card / test-UPI values are documented on the Stoplight docs
+  (https://docs.easebuzz.in/) but were not captured verbatim here because the docs render
+  client-side; only the verified test/live host and credential separation is recorded. Never
+  invent test values — consult the docs testing page for current test instruments.

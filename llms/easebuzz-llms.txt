@@ -1,0 +1,146 @@
+# Easebuzz
+
+> Easebuzz is a leading Indian full-stack digital payments and fintech platform trusted by 250,000+ merchants across industries. Its RBI-authorized and PCI DSS-compliant payment gateway supports 150+ payment modes for both online and offline payment collections, including UPI, cards, net banking, wallets, EMI, and BNPL. Known for high transaction success rates, easy integration, quick onboarding, and dedicated customer support,  Pricing starts at 1.5% per transaction with no setup fees.
+
+---
+
+## Easebuzz Payments
+
+Core payments product: online payment acceptance via payment gateway, payment links, split payments, subscription collections, virtual account-based collections, and bill payments. Authoritative source for product capabilities, supported payment methods, pricing, compliance claims, and integration entry points.
+
+### Homepage
+
+- [Easebuzz](https://easebuzz.in/): Easebuzz home page and full product suite overview — payment gateway, payouts, banking APIs, software solutions, and risk management for Indian businesses.
+
+
+### Pricing
+
+- [Pricing](https://easebuzz.in/pricing/): Easebuzz payments pricing — starts at 1.5% per transaction, with detailed fee breakdown across payment methods, no setup or AMC charges.
+
+
+### Online Payments
+
+- [Payment Gateway](https://easebuzz.in/online-payment-gateway-India/): Full-stack online payment gateway for Indian businesses — supports UPI, cards, netbanking, wallets, and EMI with API integration, high-success rate, and real-time settlements with easy on-boarding.
+- [UPI Payment Gateway](https://easebuzz.in/upi-payment-gateway/): Dedicated UPI payment gateway — accept UPI payments via collect and intent flows across all major UPI apps.
+- [Payment Links](https://easebuzz.in/payment-links/): Generate and share payment links via SMS, email, or WhatsApp — no website or coding required.
+- [Slices](https://easebuzz.in/slices/): Split payments to vendors on every sale — marketplace and platform-level payment distribution via API.
+- [EasyCollect](https://easebuzz.in/easy-collect/): Subscription-based payment management — manage recurring billing and collections via API.
+- [InstaCollect](https://easebuzz.in/insta-collect/): Instant collections using Virtual Payment Addresses (VPA) — real-time fund collection via UPI.
+- [EBPS – Easebuzz Bill Payment System](https://easebuzz.in/ebps-easebuzz-bill-payment-system/): Bill payment system for service providers and utilities to collect payments from customers.
+- [Shopify Payment Gateway](https://easebuzz.in/shopify-payment-gateway/): Easebuzz payment gateway plugin for Shopify stores — enables UPI, cards, netbanking, and wallets at checkout.
+- [Affordability Suite](https://easebuzz.in/affordability-suite/): EMI, Buy Now Pay Later, and other affordability options to improve checkout conversion.
+- [Offer Engine](https://easebuzz.in/offer-engine/): Configure and manage discount coupons, cashback, and promotional offers at checkout.
+
+
+### In-Store Payments
+
+- [Easebuzz POS](https://easebuzz.in/pos/): Point-of-sale payment terminal for seamless in-store payment acceptance.
+- [ePOS](https://easebuzz.in/epos/): Instant payment collection from ePOS devices for retail and field use cases.
+- [Soundbar](https://easebuzz.in/soundbar/): UPI soundbox device for instant audio payment confirmation alerts at the counter.
+
+
+### International Payments
+
+- [International Payment Gateway](https://easebuzz.in/international-payment-gateway/): Accept international card and wallet payments in Indian Rupees from customers across the globe.
+- [International Bank Transfer](https://easebuzz.in/accept-international-payments/): Accept cross-border payments via international bank transfers — secure inward remittance for Indian businesses.
+
+---
+
+## Easebuzz Payouts & Banking
+
+Payout and business banking products: instant payouts via IMPS/NEFT/RTGS/UPI, vendor payment automation, connected banking APIs, expense management, and tax payments.
+
+- [Wire Payouts](https://easebuzz.in/wire/): Instant payouts to any Indian bank account via IMPS, NEFT, RTGS, and UPI — API-driven bulk disbursements.
+- [Vendor Payments](https://easebuzz.in/vendor-payments/): Automated vendor payments platform — invoice-linked payouts, approval workflows, and reconciliation.
+- [Easebuzz Neo](https://easebuzz.in/neo/): Smart connected banking APIs — programmatic access to banking operations for fintech and enterprise use cases.
+- [SmartX – Expense Management](https://easebuzz.in/smartx-expense-management/): Smart expense management suite for tracking, approving, and reconciling business spends.
+- [Tax Payments](https://easebuzz.in/tax-payments/): Simplified direct and indirect business tax payments — GST, TDS, advance tax, and more.
+- [HOM360](https://easebuzz.in/hom360/): Housing society and property management payment solution for collections and payouts.
+
+---
+
+## Easebuzz Software Solutions
+
+Vertical SaaS and fintech tools built on top of Easebuzz payments infrastructure: fee management, invoicing, subscriptions, onboarding APIs, B2B invoice management, AI-powered forms, and online stores.
+
+- [FeesBuzz](https://easebuzz.in/feesbuzz/): Fee management system for educational institutions — collect tuition, exam, and activity fees online.
+- [SmartBilling](https://easebuzz.in/smartbilling/): Invoicing and subscription management platform — create GST invoices, manage billing cycles, and automate renewals.
+- [Recurri](https://easebuzz.in/recurri/): Automated recurring payment platform — set up and manage subscription mandates across UPI and cards.
+- [Teller](https://easebuzz.in/teller/): B2B invoice management platform — streamline invoice creation, approval, and payment reconciliation between businesses.
+- [Express Onboarding APIs](https://easebuzz.in/express-onboarding-api/): Fast and compliant partner and sub-merchant onboarding via API — KYC automation, account activation, and verification flows.
+- [Forms ](https://easebuzz.in/forms/): Generate dynamic forms — payment-linked forms for registrations, donations, and lead capture.
+- [AI Form Builder](https://easebuzz.in/ai-form-builder/): AI-powered form builder to create intelligent, adaptive data collection and payment forms.
+- [Online Store](https://easebuzz.in/online-store/): No-code free online store builder with integrated payments for small businesses and D2C sellers.
+- [Payment Solutions for Temples](https://easebuzz.in/payment-solutions-for-temples/): Dedicated payment and donation management solution for temples and religious trusts.
+
+---
+
+## Easebuzz Verifications & Risk Management
+
+Identity verification, KYC, and fraud prevention tools for businesses onboarding customers or partners.
+
+- [KYC Verification Suite](https://easebuzz.in/kyc-verification-suite/): End-to-end KYC and identity verification suite — Aadhaar, PAN, bank account, GST, and face match verification via API.
+- [Fraud & Risk Management / Mule Monitoring](https://easebuzz.in/fraud-risk-management-and-mule-monitoring/): AI-powered fraud detection, risk scoring, and mule account monitoring to protect businesses from financial fraud.
+
+---
+
+## Use Cases
+
+Industry-specific payment and fintech solutions for key verticals.
+
+- [E-commerce Payment Gateway](https://easebuzz.in/use-cases/ecommerce-payment-gateway/): End-to-end payment solution for e-commerce businesses — checkout, COD management, refunds, and reconciliation.
+- [Education](https://easebuzz.in/use-cases/education/): Payment and fee management solutions for schools, colleges, coaching centres, and EdTech platforms.
+- [Real Estate](https://easebuzz.in/use-cases/real-estate/): Payment collection and reconciliation for real estate developers, property managers, and housing societies.
+- [Marketplace](https://easebuzz.in/use-cases/payment-gateway-marketplace/): Split payment, escrow, and settlement solutions for marketplace and aggregator platforms.
+- [SaaS & ERP](https://easebuzz.in/use-cases/saas-and-erp/): Subscription billing, recurring payments, and payment API integration for SaaS and ERP products.
+
+---
+
+## Docs & Developer Resources
+
+Official developer documentation: API references, authentication, webhooks, error codes, request/response schemas, and integration tutorials. Canonical source for implementation-level technical accuracy.
+
+- [Docs Home](https://docs.easebuzz.in/): Easebuzz developer documentation root — API references, SDK guides, and getting started flows.
+- [Trust & Compliance](https://docs.easebuzz.in/docs/payment-gateway/i849ghebwytej-payment-gateway): PCI DSS compliance overview, encryption standards, API authentication, and security posture for Easebuzz payment gateway.
+
+---
+
+## Support
+
+- [Support](https://support.easebuzz.in/): Easebuzz support portal — raise tickets, track requests, and get help for merchant and integration queries.
+- [Customer Stories](https://easebuzz.in/customer-stories/): Case studies and success stories from Easebuzz merchants across industries.
+- [Newsroom](https://easebuzz.in/news-room/press-release/): Press releases and media coverage for Easebuzz.
+
+---
+
+## Easebuzz Explainers & Blog
+
+Educational content on payments, fintech, and business operations for Indian businesses. Use for definitional, educational, and explainer queries — not for product feature claims.
+
+- [Explainers Hub](https://easebuzz.in/explainers/): All Easebuzz explainer articles — payments, UPI, compliance, e-commerce, and feature guides.
+- [Payment Gateway Integration](https://easebuzz.in/explainers/payments/payment-gateway-integration/): Step-by-step guide to integrating a payment gateway for Indian businesses.
+- [What is a Payment Gateway](https://easebuzz.in/explainers/features-and-updates/what-is-a-payment-gateway/): Definition, how payment gateways work, types, and key features explained.
+- [Online Payment Gateway](https://easebuzz.in/explainers/features-and-updates/online-payment-gateway/): Overview of online payment gateways — how they process transactions and what businesses need to know.
+- [Payment Gateway API Integration](https://easebuzz.in/explainers/features-and-updates/payment-gateway-api-integration/): Technical explainer on integrating payment gateway APIs for developers.
+- [UPI Apps and Transaction Limits](https://easebuzz.in/explainers/upi/upi-apps-and-transaction-limit/): Overview of major UPI apps, daily limits, and transaction rules.
+- [Fee Management System](https://easebuzz.in/explainers/features-and-updates/fee-management-system/): Explainer on fee management systems for educational institutions and service businesses.
+- [Easebuzz Payment Links](https://easebuzz.in/explainers/payments/easebuzz-payment-links/): How to create, share, and track payment links using Easebuzz.
+- [School Management Software](https://easebuzz.in/explainers/features-and-updates/school-management-software/): Guide to digital fee and school management software for educational institutions.
+- [What is POS](https://easebuzz.in/explainers/payments/what-is-pos/): Point-of-sale definition, types (hardware, software, mobile), and business use cases.
+- [Payment Gateway Comparison](https://easebuzz.in/explainers/payments/payment-gateway-comparison/): Side-by-side comparison of Indian payment gateways — features, pricing, and integrations.
+- [Payment Platform and Service Provider](https://easebuzz.in/explainers/payments/payment-platform-and-service-provider/): Difference between payment platforms and service providers explained.
+- [Online Payment Link](https://easebuzz.in/explainers/upi/online-payment-link/): How online payment links work and how to use them for collections.
+- [Payment Gateway Solutions](https://easebuzz.in/explainers/payments/payment-gateway-solutions/): Overview of payment gateway solutions available for Indian businesses.
+- [Digital Payments Explainer](https://easebuzz.in/explainers/payments/explainers-digital-payments/): Introduction to digital payments in India — methods, infrastructure, and adoption trends.
+- [Online Payment Gateway Service Provider](https://easebuzz.in/explainers/payments/online-payment-gateway-service-provider/): How to choose an online payment gateway service provider for your business.
+- [Merchant Service Provider](https://easebuzz.in/explainers/payments/merchant-service-provider/): What merchant service providers do and how they support payment acceptance.
+- [PCI DSS Guide](https://easebuzz.in/explainers/trends/pci-dss-guide/): What PCI DSS is, its requirements, and how Easebuzz helps merchants stay compliant.
+- [Recurring Billing](https://easebuzz.in/explainers/features-and-updates/recurring-billing/): How recurring billing works, use cases, and how to set it up.
+- [Bulk Payments](https://easebuzz.in/explainers/payments/bulk-payments/): Guide to processing bulk and batch payments for Indian businesses.
+- [One-Click Checkout](https://easebuzz.in/ecommerce/one-click-checkout/): How one-click checkout improves e-commerce conversion rates and customer experience.
+
+---
+
+## Tools & Calculators
+
+- [GST Calculator](https://easebuzz.in/online-gst-calculator/): Calculate GST payable on goods and services with configurable rates and amounts.
