@@ -9,6 +9,17 @@ description: 'Easebuzz is an Indian payments and financial-technology platform p
   banking APIs; and SaaS tools including SmartBilling, Teller, Forms and Webstore. Developers integrate
   through REST APIs authenticated with a merchant key, salt and SHA-512 request hash, backed by official
   SDKs and e-commerce plugins across web and mobile platforms.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
