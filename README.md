@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Easebuzz is a company surfaced as a portfolio company of bessemer-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service embedded with payments infrastructure for businesses across India. Its products include a payment gateway supporting 150+ payment options (cards, UPI, net banking, wallets, EMI, BNPL), payment links, and in-store POS; collections products such as EasyCollect subscriptions, InstaCollect virtual accounts, Slices payment splitting and FeesBuzz fee collection; Wire payouts over NEFT, RTGS, IMPS and UPI with vendor and tax payments; sub-merchant management for platforms and marketplaces; Easebuzz Neo connected banking APIs; and SaaS tools including SmartBilling, Teller, Forms and Webstore. Developers integrate through REST APIs authenticated with a merchant key, salt and SHA-512 request hash, backed by official SDKs and e-commerce plugins across web and mobile platforms.
 
-Backed by: bessemer-venture-partners — https://easebuzz.in/
+**Areas:** Company · Fintech · Payments · Payment Gateway · Payouts · Banking · India · UPI · Subscription · SDK
+
+## Easebuzz on APIs.io
+
+Everything profiled for Easebuzz is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/easebuzz/](https://apis.io/providers/easebuzz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Easebuzz Payment Gateway API](https://apis.io/apis/easebuzz/easebuzz-payment-gateway-api/) — REST payment gateway API to initiate transactions, verify transaction status, and process refunds across 150+ payment options (cards, UPI, net banking,…
+- [Easebuzz Wire Payouts API](https://apis.io/apis/easebuzz/easebuzz-wire-payouts-api/) — REST payouts API (Wire) to disburse funds over NEFT, RTGS, IMPS and UPI, manage beneficiaries, run vendor and tax payments, and check payout/balance status,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Easebuzz Authentication](https://apis.io/security/easebuzz/easebuzz-authentication/)
+- [Easebuzz Domain Security](https://apis.io/security/easebuzz/easebuzz-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://easebuzz.in/)
+- [Documentation](https://docs.easebuzz.in/)
+- [API reference](https://docs.easebuzz.in/)
+- [Pricing](https://easebuzz.in/pricing/)
+- [Sign up](https://easebuzz.in/merchant/signup/)
+- [Support](https://support.easebuzz.in/)
+- [Blog](https://easebuzz.in/explainers/)
+- [Compliance](https://docs.easebuzz.in/docs/payment-gateway/i849ghebwytej-payment-gateway)
+- [Terms of service](https://easebuzz.in/terms/)
+- [Privacy policy](https://easebuzz.in/privacy/)
+- [GitHub](https://github.com/easebuzz)
+
+## API Evangelist rating
+
+**Kin Score 34.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 52.6 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 33.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/easebuzz/](https://apis.io/providers/easebuzz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Easebuzz: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/easebuzz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
